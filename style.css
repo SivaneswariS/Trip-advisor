@@ -1,0 +1,230 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+    font-family: 'Gabarito',sans-serif;
+}
+
+header {
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+nav a{
+  margin-left: 150px;
+  text-decoration: none;
+  color: black;
+  justify-content: center;
+
+}
+.right{
+    padding: 10px;
+    margin-left: 300px;
+    gap: 10px;
+}
+.nav__signin{
+    padding: 10px;
+    border: solid white 1px;
+    color: white;
+    border-radius: 30px;
+    background-color: black;
+}
+.nav__plan{
+    padding: 30px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+.navbar__search{
+    padding: 10px;
+   
+    border: solid, black 1px;
+    border-radius:30px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  
+}
+.navbar__search input{
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+    background-color: transparent;
+    justify-content: center;
+   
+}
+.navbar__s2 input:focus{
+    outline: none;
+    
+}
+.navbar__search__button{
+    padding: 10px;
+    background-color: lightgreen;
+    border: solid black 1px;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+
+.hero {
+  color: black;
+  text-align: center;
+  padding: 30px ;
+}
+.hero h1{
+    font-size: xx-large;
+}
+.card {
+     display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 0;
+  
+}
+
+
+
+
+.card img {
+    margin-left: 0;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.card__image__content {
+    width: 60%;
+    border: solid none 2px;
+    color: white;
+    background-color: none;
+    padding: 2%;
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    animation-name: zoom;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+   
+}
+@keyframes zoom {
+    0%{
+        transform: scale(0);
+        opacity:0 ;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+.card__image__content__l {
+    font-size: larger;
+}
+
+.card__image__button{
+    padding: 10px;
+    margin-top: 10px;
+    border: solid black 1px;
+     border-radius:10px ;
+}
+
+.sec__3{
+    padding: 20px;
+}
+
+.course-card{
+    width: 100%;
+    padding: 10px;
+     display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    gap: 10px;
+}
+.course-card img{
+    width: 90%;
+    height: 100%;
+    
+}
+.sec__4{
+    padding: 20px;
+}
+.course-card__rating{
+    width: 100%;
+    padding: 10px;
+     display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    gap: 10px;
+}
+.course-card__rating img{
+    width: 90%;
+    height: 100%;
+    
+}
+.sec__container{
+    padding: 10px;
+    background-color: lightpink;
+}
+.heading__1{
+    margin-top: 80px;
+    
+}
+.course-card__visit{
+    width: 100%;
+    padding: 10px;
+     display: flex;
+    justify-content: centre;
+    margin-top: 10px;
+    gap: 10px;
+    
+    
+}
+.course-card__visit img{
+    width: 90%;
+    height: 100%;
+   
+    
+}
+.footer{
+    margin-top: 130px;
+    padding: 30px;
+    background-color: lightgray;
+    color: black;
+   
+}
+.footer__one{
+    display: flex;
+    gap: 10px;
+}
+.footer__one p{
+    margin: 20px;
+}
+
+.footer__two{
+    padding: 10px;
+}
+.footer__two__s1{
+    gap: 50px;
+    justify-content: center;
+}
